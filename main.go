@@ -206,8 +206,8 @@ func worker(wg *sync.WaitGroup, jobs *chan Job, results *chan Result) {
 			fmt.Println("worker: error dialing:", err, job.feedurl)
 			slg.Println("worker: error dialing:", err, job.feedurl)
 			for i := 0; i < 5; i++ {
-				fmt.Println("worker: sleeping 60 seconds", i)
-				slg.Println("worker: sleeping 60 seconds", i)
+				fmt.Println("worker: sleeping 60 seconds:", i)
+				slg.Println("worker: sleeping 60 seconds:", i)
 				time.Sleep(10 * time.Second)
 				fmt.Println("worker: retry iteration:", i, "of", 5, job.feedurl)
 				slg.Println("worker: retry iteration:", i, "of", 5, job.feedurl)
@@ -241,7 +241,7 @@ func worker(wg *sync.WaitGroup, jobs *chan Job, results *chan Result) {
 		go keepAlive(wsConn, 20*time.Second)
 		fmt.Println("worker: Connected to", job.id, job.feedurl, wsConn.RemoteAddr(), wsConn.LocalAddr())
 		slg.Println("worker: Connected to", job.id, job.feedurl, wsConn.RemoteAddr(), wsConn.LocalAddr())
-		defer wsConn.Close()
+		//defer wsConn.Close()
 		var out Result
 		for {
 			count := 0
@@ -342,6 +342,7 @@ func worker(wg *sync.WaitGroup, jobs *chan Job, results *chan Result) {
 	wg.Done()
 }
 
+/*
 func handleError(errordone chan bool, errch *chan error) {
 	for e := range *errch {
 		fmt.Println("handleError: websocket errored out:", e)
@@ -360,7 +361,7 @@ func handleError(errordone chan bool, errch *chan error) {
 		errordone <- true
 	}
 }
-
+*/
 func startConn() error {
 	var (
 		jobs = make(chan Job, 10)
