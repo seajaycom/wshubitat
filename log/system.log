@@ -1,0 +1,1192 @@
+2022/02/21 10:55:51 main.go:315: main: starting wshubitat
+2022/02/21 11:00:01 main.go:316: main: starting wshubitat
+2022/02/21 11:00:02 main.go:180: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:48614
+2022/02/21 11:00:02 main.go:180: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:48612
+2022/02/21 11:08:05 main.go:324: main: starting wshubitat
+2022/02/21 11:08:06 main.go:180: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:49168
+2022/02/21 11:08:06 main.go:180: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:49170
+2022/02/21 11:12:31 main.go:187: worker: error ReadJSON: read tcp 192.168.1.70:49168->10.1.3.130:443: read: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:22:42 main.go:332: main: starting wshubitat
+2022/02/21 11:24:53 main.go:174: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:24:53 main.go:122: retry: retry 5 times every 5 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:24:53 main.go:174: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:24:53 main.go:122: retry: retry 5 times every 5 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:24:58 main.go:144: retry: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:24:58 main.go:144: retry: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:27:08 main.go:149: retry: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:27:08 main.go:149: retry: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:27:13 main.go:144: retry: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:27:13 main.go:144: retry: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:29:23 main.go:149: retry: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:29:23 main.go:149: retry: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:29:28 main.go:144: retry: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:29:28 main.go:144: retry: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:31:39 main.go:149: retry: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:31:39 main.go:149: retry: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:31:44 main.go:144: retry: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:31:44 main.go:144: retry: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:33:54 main.go:149: retry: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:33:54 main.go:149: retry: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:33:59 main.go:144: retry: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:33:59 main.go:144: retry: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:36:09 main.go:149: retry: retry error: 5 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:36:09 main.go:179: worker: error retrying and giving up: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:36:09 main.go:149: retry: retry error: 5 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:36:09 main.go:179: worker: error retrying and giving up: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:41:21 main.go:332: main: starting wshubitat:
+2022/02/21 11:41:36 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:52182
+2022/02/21 11:41:36 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:52180
+2022/02/21 11:48:30 main.go:211: worker: error ReadJSON: read tcp 192.168.1.70:52180->10.1.3.130:443: read: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:48:30 main.go:122: retry: retry 0 times every 5 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:48:30 main.go:195: worker: error ReadJSON: read tcp 192.168.1.70:52182->10.1.3.130:443: read: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:48:30 main.go:122: retry: retry 0 times every 5 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:48:35 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:48:35 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:50:45 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:50:45 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/21 11:50:51 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 11:50:51 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 11:51:23 main.go:160: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/21 11:51:23 main.go:160: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/21 11:58:20 main.go:332: main: starting wshubitat:
+2022/02/21 11:58:20 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:53216
+2022/02/21 11:58:20 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:53218
+2022/02/21 13:49:43 main.go:195: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:49:43 main.go:122: retry: retry 0 times every 5 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:49:43 main.go:211: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:49:43 main.go:122: retry: retry 0 times every 5 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:49:48 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:49:48 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:03 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 13:50:03 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 13:50:08 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:08 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:08 main.go:133: retry: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 13:50:08 main.go:133: retry: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 13:50:13 main.go:129: retry: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:13 main.go:129: retry: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:13 main.go:133: retry: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 13:50:13 main.go:133: retry: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 13:50:18 main.go:129: retry: retry count: 3 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:18 main.go:129: retry: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:35 main.go:133: retry: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 13:50:36 main.go:133: retry: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 13:50:40 main.go:129: retry: retry count: 4 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:41 main.go:129: retry: retry count: 4 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:41 main.go:133: retry: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 13:50:41 main.go:133: retry: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 13:50:46 main.go:129: retry: retry count: 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:46 main.go:129: retry: retry count: 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:47 main.go:133: retry: retry error: 5 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 13:50:47 main.go:133: retry: retry error: 5 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 13:50:52 main.go:129: retry: retry count: 6 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:52 main.go:129: retry: retry count: 6 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:52 main.go:133: retry: retry error: 6 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 13:50:52 main.go:133: retry: retry error: 6 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 13:50:57 main.go:129: retry: retry count: 7 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:50:57 main.go:129: retry: retry count: 7 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:50:58 main.go:133: retry: retry error: 7 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 13:50:58 main.go:133: retry: retry error: 7 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 13:51:03 main.go:129: retry: retry count: 8 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:51:03 main.go:129: retry: retry count: 8 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:51:03 main.go:133: retry: retry error: 8 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 13:51:04 main.go:133: retry: retry error: 8 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 13:51:08 main.go:129: retry: retry count: 9 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 13:51:09 main.go:160: retry: successfully reconnected after: 9 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/21 13:51:09 main.go:129: retry: retry count: 9 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 13:51:09 main.go:160: retry: successfully reconnected after: 9 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/21 13:53:24 main.go:332: main: starting wshubitat:
+2022/02/21 13:53:24 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:34546
+2022/02/21 13:53:24 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:34544
+2022/02/21 13:54:32 main.go:332: main: starting wshubitat:
+2022/02/21 13:54:32 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:34554
+2022/02/21 13:54:32 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:34552
+2022/02/21 15:03:59 main.go:195: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:03:59 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:03:59 main.go:211: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:03:59 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:04:09 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:04:09 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:04:16 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 15:04:16 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 15:04:26 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:04:26 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:04:27 main.go:133: retry: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 15:04:27 main.go:133: retry: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 15:04:37 main.go:129: retry: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:04:37 main.go:129: retry: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:04:37 main.go:133: retry: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 15:04:37 main.go:133: retry: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/21 15:04:47 main.go:129: retry: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:04:47 main.go:129: retry: retry count: 3 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:04:52 main.go:133: retry: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 15:04:52 main.go:133: retry: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 15:05:02 main.go:129: retry: retry count: 4 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:05:02 main.go:129: retry: retry count: 4 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:05:02 main.go:133: retry: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 15:05:02 main.go:133: retry: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 15:05:12 main.go:129: retry: retry count: 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:05:12 main.go:133: retry: retry error: 5 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 15:05:12 main.go:129: retry: retry count: 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:05:13 main.go:133: retry: retry error: 5 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 15:05:22 main.go:129: retry: retry count: 6 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:05:23 main.go:129: retry: retry count: 6 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:05:23 main.go:133: retry: retry error: 6 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/21 15:05:23 main.go:133: retry: retry error: 6 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/21 15:05:33 main.go:129: retry: retry count: 7 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:05:33 main.go:160: retry: successfully reconnected after: 7 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/21 15:05:33 main.go:129: retry: retry count: 7 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:05:34 main.go:160: retry: successfully reconnected after: 7 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/21 15:10:33 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:10:33 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:10:34 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:10:34 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:10:43 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/21 15:10:44 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/21 15:10:44 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/21 15:10:44 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 12:57:32 main.go:332: main: starting wshubitat:
+2022/02/22 12:57:32 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:58048
+2022/02/22 12:57:32 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:58050
+2022/02/22 13:02:32 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:02:32 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:02:32 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300003/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:02:32 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:02:42 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:02:42 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:02:42 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:02:42 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 13:03:21 main.go:332: main: starting wshubitat:
+2022/02/22 13:03:21 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:58552
+2022/02/22 13:03:21 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:58554
+2022/02/22 13:05:43 main.go:332: main: starting wshubitat:
+2022/02/22 13:05:43 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:58558
+2022/02/22 13:05:43 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:58556
+2022/02/22 13:07:52 main.go:332: main: starting wshubitat:
+2022/02/22 13:07:52 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:58722
+2022/02/22 13:07:52 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:58724
+2022/02/22 13:30:43 main.go:211: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:30:43 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:30:43 main.go:195: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:30:43 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:30:53 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:30:53 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:31:09 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/22 13:31:09 main.go:133: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/22 13:31:19 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:31:19 main.go:129: retry: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:31:19 main.go:133: retry: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/22 13:31:19 main.go:133: retry: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/22 13:31:29 main.go:129: retry: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:31:29 main.go:129: retry: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:31:36 main.go:133: retry: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/22 13:31:36 main.go:133: retry: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/22 13:31:46 main.go:129: retry: retry count: 3 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:31:46 main.go:129: retry: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:31:46 main.go:133: retry: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/22 13:31:46 main.go:133: retry: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/22 13:31:56 main.go:129: retry: retry count: 4 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:31:56 main.go:129: retry: retry count: 4 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:31:57 main.go:133: retry: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/22 13:31:57 main.go:133: retry: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/22 13:32:07 main.go:129: retry: retry count: 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:32:07 main.go:129: retry: retry count: 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:32:07 main.go:160: retry: successfully reconnected after: 5 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:32:07 main.go:160: retry: successfully reconnected after: 5 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 13:37:07 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300001/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:37:07 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:37:07 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300002/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:37:07 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:37:17 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:37:17 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:37:17 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 13:37:17 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:42:17 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:42:17 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:42:17 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300008/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:42:17 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:42:27 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:42:27 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:42:27 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 13:42:27 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:47:27 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:47:27 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:47:27 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:47:27 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:47:37 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:47:37 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:47:37 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:47:37 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 13:52:37 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:52:37 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:52:38 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:52:38 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:52:47 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:52:48 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:52:48 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:52:48 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 13:57:48 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:57:48 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:57:48 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:57:48 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:57:58 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 13:57:58 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 13:57:58 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 13:57:58 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 14:02:58 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:02:58 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:02:58 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300006/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:02:58 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:03:08 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:03:08 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:03:08 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 14:03:08 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 14:08:08 main.go:195: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:08:08 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:08:08 main.go:211: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:08:08 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:08:18 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:08:18 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:08:18 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 14:08:18 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 14:10:12 main.go:332: main: starting wshubitat:
+2022/02/22 14:10:12 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:35446
+2022/02/22 14:10:12 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:35444
+2022/02/22 14:12:11 main.go:332: main: starting wshubitat:
+2022/02/22 14:12:11 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:35922
+2022/02/22 14:12:11 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:35920
+2022/02/22 14:14:14 main.go:332: main: starting wshubitat:
+2022/02/22 14:14:15 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:35924
+2022/02/22 14:14:15 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:35926
+2022/02/22 14:18:09 main.go:332: main: starting wshubitat:
+2022/02/22 14:18:09 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:36426
+2022/02/22 14:18:09 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:36424
+2022/02/22 14:28:51 main.go:332: main: starting wshubitat:
+2022/02/22 14:28:52 main.go:188: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:36930
+2022/02/22 14:28:52 main.go:188: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:36932
+2022/02/22 14:30:16 main.go:195: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:30:16 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:30:16 main.go:211: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:30:16 main.go:122: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:33:16 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 14:33:16 main.go:129: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 14:33:16 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 14:33:16 main.go:160: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 14:56:16 main.go:336: main: starting wshubitat:
+2022/02/22 14:56:17 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:39428
+2022/02/22 14:56:17 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:39430
+2022/02/22 14:59:17 main.go:336: main: starting wshubitat:
+2022/02/22 14:59:17 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:39442
+2022/02/22 14:59:17 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:39440
+2022/02/22 15:04:17 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:04:17 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:04:17 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:04:17 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:07:17 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:07:17 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:07:17 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 15:07:17 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 15:09:51 main.go:336: main: starting wshubitat:
+2022/02/22 15:10:00 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:40448
+2022/02/22 15:10:00 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:40450
+2022/02/22 15:11:58 main.go:336: main: starting wshubitat:
+2022/02/22 15:12:32 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:40460
+2022/02/22 15:13:06 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:40462
+2022/02/22 15:17:06 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:17:06 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:17:06 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:17:06 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:20:24 main.go:336: main: starting wshubitat:
+2022/02/22 15:20:30 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:41042
+2022/02/22 15:20:32 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:41044
+2022/02/22 15:23:05 main.go:336: main: starting wshubitat:
+2022/02/22 15:23:12 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:41482
+2022/02/22 15:23:13 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:41484
+2022/02/22 15:28:10 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:28:10 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:28:10 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:28:10 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:30:51 main.go:336: main: starting wshubitat:
+2022/02/22 15:30:56 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:41998
+2022/02/22 15:30:58 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:41996
+2022/02/22 15:31:31 main.go:336: main: starting wshubitat:
+2022/02/22 15:31:39 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:42004
+2022/02/22 15:31:41 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:42006
+2022/02/22 15:34:40 main.go:336: main: starting wshubitat:
+2022/02/22 15:34:41 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:42514
+2022/02/22 15:34:41 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:42516
+2022/02/22 15:39:41 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:39:41 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:39:41 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300003/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:39:41 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:42:41 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:42:41 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:42:41 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 15:42:41 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 15:47:41 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:47:41 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:47:41 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300006/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:47:41 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:50:41 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:50:41 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:50:41 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 15:50:41 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 15:53:05 main.go:336: main: starting wshubitat:
+2022/02/22 15:53:56 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:44024
+2022/02/22 15:53:57 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:44026
+2022/02/22 15:58:50 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:58:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 15:59:06 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 15:59:06 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:02:08 main.go:336: main: starting wshubitat:
+2022/02/22 16:02:08 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:44548
+2022/02/22 16:02:08 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:44546
+2022/02/22 16:05:52 main.go:336: main: starting wshubitat:
+2022/02/22 16:05:52 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:45050
+2022/02/22 16:05:52 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:45052
+2022/02/22 16:10:24 main.go:336: main: starting wshubitat:
+2022/02/22 16:10:24 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:45056
+2022/02/22 16:10:24 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:45058
+2022/02/22 16:11:02 main.go:336: main: starting wshubitat:
+2022/02/22 16:11:14 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:45160
+2022/02/22 16:11:15 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:45154
+2022/02/22 16:20:55 main.go:336: main: starting wshubitat:
+2022/02/22 16:21:06 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:46078
+2022/02/22 16:21:06 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:46076
+2022/02/22 16:23:46 main.go:199: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:23:46 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:23:46 main.go:215: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:23:46 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:26:46 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:26:46 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:26:46 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 16:26:46 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 16:31:46 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:31:46 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:31:46 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:31:46 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:34:46 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:34:46 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:34:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 16:34:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 16:39:47 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:39:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:39:47 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:39:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:42:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:42:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:42:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 16:42:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 16:47:47 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:47:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:47:47 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:47:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:50:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:50:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:50:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 16:50:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 16:55:47 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:55:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:55:47 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:55:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:58:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 16:58:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 16:58:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 16:58:47 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:03:47 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:03:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:03:47 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300008/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:03:47 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:06:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:06:47 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:06:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:06:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:11:48 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:11:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:11:48 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300007/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:11:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:14:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:14:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:14:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:14:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:19:48 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:19:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:19:48 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:19:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:22:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:22:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:22:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:22:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:27:48 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:27:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:27:48 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:27:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:30:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:30:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:30:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:30:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:35:48 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:35:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:35:48 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300006/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:35:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:38:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:38:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:38:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:38:48 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:43:48 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:43:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:43:48 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:43:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:46:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:46:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:46:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:46:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:51:49 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:51:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:51:49 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300005/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:51:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:54:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:54:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:54:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 17:54:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 17:59:49 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:59:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 17:59:49 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300006/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 17:59:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:02:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:02:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:02:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:02:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:07:49 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:07:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:07:49 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300006/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:07:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:10:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:10:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:10:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:10:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:15:49 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:15:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:15:49 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300007/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:15:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:18:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:18:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:18:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:18:49 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:23:49 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:23:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:23:49 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300003/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:23:49 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:26:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:26:49 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:26:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:26:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:31:50 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:31:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:31:50 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:31:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:34:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:34:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:34:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:34:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:39:50 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:39:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:39:50 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300007/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:39:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:42:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:42:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:42:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:42:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:47:50 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:47:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:47:50 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300004/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:47:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:50:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:50:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:50:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 18:50:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:55:50 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:55:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:55:50 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300009/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:55:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:58:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 18:58:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 18:58:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 18:58:50 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 19:03:50 main.go:215: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 19:03:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 19:03:50 main.go:199: worker: error ReadJSON: websocket: close 1001 (going away): java.util.concurrent.TimeoutException: Idle timeout expired: 300000/300000 ms wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 19:03:50 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 19:06:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/22 19:06:50 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/22 19:06:51 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/22 19:06:51 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/22 19:08:14 main.go:336: main: starting wshubitat:
+2022/02/22 19:08:15 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:59150
+2022/02/22 19:08:15 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:59148
+2022/02/23 11:09:38 main.go:336: main: starting wshubitat:
+2022/02/23 11:10:13 main.go:192: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:48744
+2022/02/23 11:10:13 main.go:192: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:48742
+2022/02/23 12:09:44 main.go:199: worker: error ReadJSON: read tcp 192.168.1.70:48744->10.1.3.130:443: read: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 12:09:48 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 12:09:53 main.go:215: worker: error ReadJSON: read tcp 192.168.1.70:48742->10.1.3.130:443: read: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 12:09:55 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 12:12:48 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 12:12:52 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 12:12:55 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 12:12:55 main.go:164: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 13:12:47 main.go:361: main: starting wshubitat:
+2022/02/23 13:12:47 main.go:217: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:58212
+2022/02/23 13:12:47 main.go:217: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:58214
+2022/02/23 13:12:59 main.go:240: worker: error ReadJSON: read tcp 192.168.1.70:58212->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:12:59 main.go:224: worker: error ReadJSON: read tcp 192.168.1.70:58214->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:13:01 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:13:01 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:16:01 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:16:01 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:16:01 main.go:165: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 13:16:01 main.go:165: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 13:22:00 main.go:362: main: starting wshubitat:
+2022/02/23 13:22:00 main.go:218: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:59220
+2022/02/23 13:22:00 main.go:218: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:59222
+2022/02/23 13:24:43 main.go:225: worker: error ReadJSON: read tcp 192.168.1.70:59222->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:24:43 main.go:241: worker: error ReadJSON: read tcp 192.168.1.70:59220->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:24:45 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:24:45 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:27:45 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:27:45 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:27:45 main.go:165: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 13:27:45 main.go:165: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 13:33:22 main.go:364: main: starting wshubitat:
+2022/02/23 13:33:23 main.go:220: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:60372
+2022/02/23 13:33:23 main.go:220: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:60370
+2022/02/23 13:38:26 main.go:366: main: starting wshubitat:
+2022/02/23 13:38:26 main.go:222: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:60890
+2022/02/23 13:38:26 main.go:222: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:60888
+2022/02/23 13:39:51 main.go:229: worker: error ReadJSON: read tcp 192.168.1.70:60890->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:39:52 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:39:55 main.go:245: worker: error ReadJSON: read tcp 192.168.1.70:60888->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:41:45 main.go:365: main: starting wshubitat:
+2022/02/23 13:43:55 main.go:206: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:43:55 main.go:206: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:44:14 main.go:126: retry: retry 5 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:44:14 main.go:126: retry: retry 5 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:45:14 main.go:149: retry: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:45:14 main.go:149: retry: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:47:23 main.go:153: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/23 13:47:23 main.go:153: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/23 13:48:24 main.go:149: retry: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:48:24 main.go:149: retry: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:48:39 main.go:166: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 13:48:39 main.go:166: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 13:48:40 main.go:221: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:33314
+2022/02/23 13:48:40 main.go:221: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:33312
+2022/02/23 13:49:06 main.go:244: worker: error ReadJSON: read tcp 192.168.1.70:33312->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:49:19 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:49:19 main.go:228: worker: error ReadJSON: read tcp 192.168.1.70:33314->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:49:23 main.go:126: retry: retry 0 times every 10 seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:50:19 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 13:50:19 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 13:50:23 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 13:50:23 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 13:57:35 main.go:366: main: starting wshubitat:
+2022/02/23 13:57:36 main.go:222: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:34240
+2022/02/23 13:57:36 main.go:222: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:34242
+2022/02/23 13:59:06 main.go:366: main: starting wshubitat:
+2022/02/23 13:59:06 main.go:222: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:34250
+2022/02/23 13:59:06 main.go:222: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:34252
+2022/02/23 14:02:27 main.go:229: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:02:29 main.go:126: retry: retry 0 times every 60ns seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:02:29 main.go:245: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:02:31 main.go:126: retry: retry 0 times every 60ns seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:03:29 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:03:30 main.go:137: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/23 14:03:31 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:03:32 main.go:137: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/23 14:04:30 main.go:133: retry: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:04:31 main.go:166: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 14:04:32 main.go:133: retry: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:04:32 main.go:166: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 14:15:23 main.go:366: main: starting wshubitat:
+2022/02/23 14:15:24 main.go:222: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:35764
+2022/02/23 14:15:24 main.go:222: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:35762
+2022/02/23 14:18:16 main.go:366: main: starting wshubitat:
+2022/02/23 14:18:16 main.go:222: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:35774
+2022/02/23 14:18:16 main.go:222: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:35772
+2022/02/23 14:20:15 main.go:229: worker: error ReadJSON: read tcp 192.168.1.70:35774->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:20:16 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:21:16 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 14:21:16 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/23 14:22:30 main.go:245: worker: error ReadJSON: read tcp 192.168.1.70:35772->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:22:33 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:23:33 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/23 14:23:34 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/23 14:44:34 main.go:382: main: starting wshubitat:
+2022/02/23 14:47:27 main.go:382: main: starting wshubitat:
+2022/02/23 14:47:27 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:47:27 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:48:27 main.go:214: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:48:27 main.go:214: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:48:27 main.go:218: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:48:27 main.go:218: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:49:27 main.go:214: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:49:27 main.go:214: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:49:27 main.go:218: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:49:27 main.go:218: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:50:27 main.go:214: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:50:27 main.go:214: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:50:27 main.go:218: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:50:27 main.go:218: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:51:27 main.go:214: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:51:27 main.go:214: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:51:27 main.go:218: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:51:27 main.go:218: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:52:27 main.go:214: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:52:27 main.go:214: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:52:27 main.go:218: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:52:27 main.go:221: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:52:27 main.go:218: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:52:27 main.go:221: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:55:57 main.go:383: main: starting wshubitat:
+2022/02/23 14:55:57 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:55:57 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 14:55:57 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:55:57 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 14:56:12 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:56:12 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:56:12 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:12 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 14:56:12 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:12 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 14:56:27 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:56:27 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:56:27 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:27 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 14:56:27 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:27 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 14:56:42 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:56:42 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:56:42 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:42 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 14:56:42 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:42 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 14:56:57 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:56:57 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:56:57 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:57 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 14:56:57 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:56:57 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 14:57:12 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 14:57:12 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:57:12 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:57:12 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 14:57:12 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 14:57:12 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:01:49 main.go:385: main: starting wshubitat:
+2022/02/23 15:01:49 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:01:49 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:01:49 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:01:49 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:02:04 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:02:04 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:02:04 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:04 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:02:04 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:04 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:02:19 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:02:19 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:02:19 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:19 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:02:19 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:19 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:02:34 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:02:34 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:02:34 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:34 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:02:34 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:34 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:02:49 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:02:49 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:02:49 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:49 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:02:49 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:02:49 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:03:04 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:03:04 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:03:04 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:03:04 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:03:04 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:03:04 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:05:43 main.go:386: main: starting wshubitat:
+2022/02/23 15:05:43 main.go:208: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:05:43 main.go:213: worker: sleeping 60 seconds 0
+2022/02/23 15:05:43 main.go:208: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:05:43 main.go:213: worker: sleeping 60 seconds 0
+2022/02/23 15:05:58 main.go:216: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:05:58 main.go:216: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:05:58 main.go:220: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:05:58 main.go:213: worker: sleeping 60 seconds 1
+2022/02/23 15:05:58 main.go:220: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:05:58 main.go:213: worker: sleeping 60 seconds 1
+2022/02/23 15:06:13 main.go:216: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:06:13 main.go:216: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:06:13 main.go:220: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:13 main.go:213: worker: sleeping 60 seconds 2
+2022/02/23 15:06:13 main.go:220: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:13 main.go:213: worker: sleeping 60 seconds 2
+2022/02/23 15:06:28 main.go:216: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:06:28 main.go:216: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:06:28 main.go:220: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:28 main.go:213: worker: sleeping 60 seconds 3
+2022/02/23 15:06:28 main.go:220: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:28 main.go:213: worker: sleeping 60 seconds 3
+2022/02/23 15:06:43 main.go:216: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:06:43 main.go:216: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:06:43 main.go:220: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:43 main.go:220: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:43 main.go:213: worker: sleeping 60 seconds 4
+2022/02/23 15:06:43 main.go:213: worker: sleeping 60 seconds 4
+2022/02/23 15:06:58 main.go:216: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:06:58 main.go:216: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:06:58 main.go:220: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:58 main.go:223: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:06:58 main.go:220: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:06:58 main.go:223: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:08:31 main.go:386: main: starting wshubitat:
+2022/02/23 15:08:31 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:08:31 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:08:31 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:08:31 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:08:46 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:08:46 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:08:46 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:08:46 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:08:46 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:08:46 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:09:01 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:09:01 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:09:01 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:01 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:09:01 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:01 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:09:16 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:09:16 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:09:16 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:16 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:09:16 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:16 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:09:31 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:09:31 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:09:31 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:31 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:09:31 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:31 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:09:46 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:09:46 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:09:46 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:46 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:09:46 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:09:46 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:03 main.go:386: main: starting wshubitat:
+2022/02/23 15:11:03 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:11:03 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:11:03 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:03 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:11:13 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:13 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:11:13 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:13 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:11:13 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:13 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:11:23 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:11:23 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:23 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:23 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:11:23 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:23 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:11:33 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:11:33 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:33 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:33 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:11:33 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:33 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:11:43 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:11:43 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:43 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:43 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:11:43 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:43 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:11:53 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:11:53 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:53 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:11:53 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:11:53 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:20 main.go:386: main: starting wshubitat:
+2022/02/23 15:14:20 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:14:20 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:14:20 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:14:20 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:14:30 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:14:30 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:14:30 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:30 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:14:30 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:30 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:14:40 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:14:40 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:14:40 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:40 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:14:40 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:40 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:14:50 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:14:50 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:14:50 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:50 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:14:50 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:14:50 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:15:00 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:15:00 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:15:00 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:15:00 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:15:00 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:15:00 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:15:10 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:15:10 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:15:10 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:15:10 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:15:10 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:15:10 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:09 main.go:386: main: starting wshubitat:
+2022/02/23 15:18:09 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:18:09 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:18:09 main.go:207: worker: error dialing: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:09 main.go:212: worker: sleeping 60 seconds 0
+2022/02/23 15:18:19 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:19 main.go:215: worker: retry iteration: 0 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:18:19 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:19 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:18:19 main.go:219: worker: retry error: 0 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:19 main.go:212: worker: sleeping 60 seconds 1
+2022/02/23 15:18:29 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:18:29 main.go:215: worker: retry iteration: 1 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:29 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:29 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:18:29 main.go:219: worker: retry error: 1 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:29 main.go:212: worker: sleeping 60 seconds 2
+2022/02/23 15:18:39 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:18:39 main.go:215: worker: retry iteration: 2 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:39 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:39 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:18:39 main.go:219: worker: retry error: 2 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:39 main.go:212: worker: sleeping 60 seconds 3
+2022/02/23 15:18:49 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:18:49 main.go:215: worker: retry iteration: 3 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:49 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:49 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:18:49 main.go:219: worker: retry error: 3 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:49 main.go:212: worker: sleeping 60 seconds 4
+2022/02/23 15:18:59 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:18:59 main.go:215: worker: retry iteration: 4 of 5 wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:59 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/eventsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:59 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/eventsocket
+2022/02/23 15:18:59 main.go:219: worker: retry error: 4 wss://madenhub01-offic.things.denn.com/logsocket dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host
+2022/02/23 15:18:59 main.go:222: worker: error retrying and giving up: dial tcp: lookup madenhub01-offic.things.denn.com on 192.168.1.15:53: no such host wss://madenhub01-offic.things.denn.com/logsocket
+2022/02/23 15:20:10 main.go:386: main: starting wshubitat:
+2022/02/23 15:20:13 main.go:242: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:41098
+2022/02/23 15:20:13 main.go:242: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:41100
+2022/02/23 15:25:28 main.go:249: worker: error ReadJSON: read tcp 192.168.1.70:41100->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 15:25:30 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 15:26:30 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/23 15:26:31 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/24 10:58:30 main.go:386: main: starting wshubitat:
+2022/02/24 10:58:30 main.go:242: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:47674
+2022/02/24 10:58:30 main.go:242: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:47672
+2022/02/24 11:07:14 main.go:265: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:07:14 main.go:249: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:07:16 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:07:16 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:08:16 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:08:16 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:10:28 main.go:137: retry: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/24 11:10:28 main.go:137: retry: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/24 11:11:28 main.go:133: retry: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:11:28 main.go:133: retry: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:13:36 main.go:137: retry: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/24 11:13:36 main.go:137: retry: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/02/24 11:14:36 main.go:133: retry: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:14:36 main.go:133: retry: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:14:37 main.go:166: retry: successfully reconnected after: 2 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/24 11:14:37 main.go:166: retry: successfully reconnected after: 2 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/24 11:18:31 main.go:265: worker: error ReadJSON: read tcp 192.168.1.70:48682->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:18:33 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:19:33 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:19:34 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/24 11:23:31 main.go:249: worker: error ReadJSON: read tcp 192.168.1.70:48684->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:23:33 main.go:126: retry: retry 0 times every 1m0s seconds: wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:24:33 main.go:133: retry: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:24:33 main.go:166: retry: successfully reconnected after: 0 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/24 11:26:27 main.go:386: main: starting wshubitat:
+2022/02/24 11:26:27 main.go:242: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:49712
+2022/02/24 11:26:27 main.go:242: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:49710
+2022/02/24 11:29:33 main.go:386: main: starting wshubitat:
+2022/02/24 11:29:34 main.go:242: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:49914
+2022/02/24 11:29:34 main.go:242: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:49916
+2022/02/24 11:30:58 main.go:386: main: starting wshubitat:
+2022/02/24 11:30:58 main.go:242: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:50226
+2022/02/24 11:30:58 main.go:242: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:50228
+2022/02/24 11:32:27 main.go:386: main: starting wshubitat:
+2022/02/24 11:32:27 main.go:242: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:50230
+2022/02/24 11:32:27 main.go:242: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:50232
+2022/02/24 11:47:31 main.go:411: main: starting wshubitat:
+2022/02/24 11:47:31 main.go:240: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:51252
+2022/02/24 11:47:31 main.go:240: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:51254
+2022/02/24 11:48:51 main.go:248: worker: error ReadJSON: read tcp 192.168.1.70:51252->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:49:51 main.go:252: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 11:55:50 main.go:414: main: starting wshubitat:
+2022/02/24 11:55:50 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:52248
+2022/02/24 11:55:50 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:52250
+2022/02/24 11:56:40 main.go:280: worker: error ReadJSON: read tcp 192.168.1.70:52250->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 11:57:40 main.go:285: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:05:40 main.go:251: worker: error ReadJSON: read tcp 192.168.1.70:52248->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:06:40 main.go:255: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:06:40 main.go:259: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:07:20 main.go:280: worker: error ReadJSON: read tcp 192.168.1.70:52254->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:07:40 main.go:255: worker: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:07:40 main.go:259: worker: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:08:20 main.go:285: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:08:20 main.go:289: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:08:40 main.go:255: worker: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:08:40 main.go:259: worker: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:09:20 main.go:285: worker: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:09:20 main.go:289: worker: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:09:40 main.go:255: worker: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:09:40 main.go:259: worker: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:10:20 main.go:285: worker: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:10:20 main.go:289: worker: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:10:40 main.go:255: worker: retry count: 4 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:10:40 main.go:259: worker: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:11:20 main.go:285: worker: retry count: 3 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:11:20 main.go:289: worker: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:11:40 main.go:255: worker: retry count: 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:11:40 main.go:259: worker: retry error: 5 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:12:20 main.go:285: worker: retry count: 4 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:12:20 main.go:289: worker: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:12:40 main.go:255: worker: retry count: 6 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:12:40 main.go:259: worker: retry error: 6 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:13:20 main.go:285: worker: retry count: 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:13:40 main.go:255: worker: retry count: 7 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:18:29 main.go:420: main: starting wshubitat:
+2022/02/24 12:18:29 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:53778
+2022/02/24 12:18:29 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:53780
+2022/02/24 12:37:09 main.go:251: worker: error ReadJSON: read tcp 192.168.1.70:53778->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:38:09 main.go:255: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:38:09 main.go:259: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:39:09 main.go:255: worker: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:39:09 main.go:259: worker: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:39:59 main.go:283: worker: error ReadJSON: read tcp 192.168.1.70:53780->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:40:09 main.go:255: worker: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:40:09 main.go:259: worker: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:40:59 main.go:288: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:40:59 main.go:292: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:41:09 main.go:255: worker: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:41:09 main.go:259: worker: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:41:59 main.go:288: worker: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:41:59 main.go:292: worker: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:42:09 main.go:255: worker: retry count: 4 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:42:09 main.go:259: worker: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection refused
+2022/02/24 12:42:59 main.go:288: worker: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:43:00 main.go:297: retry: successfully reconnected after: 2 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/24 12:43:09 main.go:255: worker: retry count: 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:43:10 main.go:264: retry: successfully reconnected after: 5 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/24 12:46:25 main.go:251: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:46:25 main.go:283: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:47:25 main.go:255: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:47:25 main.go:288: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:47:26 main.go:259: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/24 12:47:26 main.go:292: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/24 12:48:26 main.go:288: worker: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:48:26 main.go:255: worker: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:48:27 main.go:297: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/24 12:48:27 main.go:264: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/24 12:51:13 main.go:420: main: starting wshubitat:
+2022/02/24 12:51:13 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:56316
+2022/02/24 12:51:13 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:56318
+2022/02/24 12:53:17 main.go:420: main: starting wshubitat:
+2022/02/24 12:53:17 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:56824
+2022/02/24 12:53:17 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:56822
+2022/02/24 12:58:08 main.go:283: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:58:10 main.go:251: worker: error ReadJSON: websocket: close 1006 (abnormal closure): unexpected EOF wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:58:40 main.go:255: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:58:40 main.go:288: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:58:59 main.go:292: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket websocket: bad handshake
+2022/02/24 12:58:59 main.go:259: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket websocket: bad handshake
+2022/02/24 12:59:29 main.go:288: worker: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/02/24 12:59:29 main.go:255: worker: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/02/24 12:59:29 main.go:297: worker: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/02/24 12:59:29 main.go:264: worker: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/02/24 13:06:53 main.go:420: main: starting wshubitat:
+2022/02/24 13:06:53 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:57844
+2022/02/24 13:06:53 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:57842
+2022/03/02 10:37:56 main.go:420: main: starting wshubitat:
+2022/03/02 10:37:57 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:49384
+2022/03/02 10:37:57 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:49386
+2022/03/02 13:28:26 main.go:283: worker: error ReadJSON: read tcp 192.168.1.70:49384->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:28:32 main.go:251: worker: error ReadJSON: read tcp 192.168.1.70:49386->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:29:08 main.go:255: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:29:08 main.go:288: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:31:59 main.go:292: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:31:59 main.go:259: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:32:37 main.go:255: worker: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:32:37 main.go:288: worker: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:34:54 main.go:259: worker: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:34:54 main.go:292: worker: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:35:27 main.go:288: worker: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:35:24 main.go:255: worker: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:38:00 main.go:292: worker: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:38:00 main.go:259: worker: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:38:30 main.go:255: worker: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:38:33 main.go:288: worker: retry count: 3 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:38:36 main.go:297: worker: successfully reconnected after: 3 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/03/02 13:38:36 main.go:264: worker: successfully reconnected after: 3 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/03/02 13:39:54 main.go:420: main: starting wshubitat:
+2022/03/02 13:39:54 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:35398
+2022/03/02 13:39:54 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:35396
+2022/03/02 13:40:44 main.go:420: main: starting wshubitat:
+2022/03/02 13:41:07 main.go:420: main: starting wshubitat:
+2022/03/02 13:43:17 main.go:207: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:43:17 main.go:210: worker: sleeping 60 seconds 0
+2022/03/02 13:43:17 main.go:207: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:43:17 main.go:210: worker: sleeping 60 seconds 0
+2022/03/02 13:43:27 main.go:213: worker: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:43:27 main.go:213: worker: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:45:36 main.go:217: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:45:36 main.go:210: worker: sleeping 60 seconds 1
+2022/03/02 13:45:36 main.go:217: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:45:36 main.go:210: worker: sleeping 60 seconds 1
+2022/03/02 13:45:46 main.go:213: worker: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:45:46 main.go:213: worker: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:47:55 main.go:217: worker: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:47:55 main.go:210: worker: sleeping 60 seconds 2
+2022/03/02 13:47:55 main.go:217: worker: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:47:55 main.go:210: worker: sleeping 60 seconds 2
+2022/03/02 13:48:05 main.go:213: worker: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:48:05 main.go:213: worker: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:50:15 main.go:217: worker: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:50:15 main.go:210: worker: sleeping 60 seconds 3
+2022/03/02 13:50:15 main.go:217: worker: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:50:15 main.go:210: worker: sleeping 60 seconds 3
+2022/03/02 13:50:25 main.go:213: worker: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:50:25 main.go:213: worker: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:52:34 main.go:217: worker: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:52:34 main.go:210: worker: sleeping 60 seconds 4
+2022/03/02 13:52:34 main.go:217: worker: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:52:34 main.go:210: worker: sleeping 60 seconds 4
+2022/03/02 13:52:44 main.go:213: worker: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 13:52:44 main.go:213: worker: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:54:53 main.go:217: worker: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:54:53 main.go:220: worker: error retrying and giving up: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 13:54:53 main.go:217: worker: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 13:54:53 main.go:220: worker: error retrying and giving up: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:01:07 main.go:420: main: starting wshubitat:
+2022/03/02 14:01:08 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:37262
+2022/03/02 14:01:08 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:37260
+2022/03/02 14:03:47 main.go:420: main: starting wshubitat:
+2022/03/02 14:03:47 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:37272
+2022/03/02 14:03:47 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:37270
+2022/03/02 14:04:03 main.go:420: main: starting wshubitat:
+2022/03/02 14:06:13 main.go:207: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:06:13 main.go:210: worker: sleeping 60 seconds 0
+2022/03/02 14:06:13 main.go:207: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:06:13 main.go:210: worker: sleeping 60 seconds 0
+2022/03/02 14:06:23 main.go:213: worker: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:06:23 main.go:213: worker: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:08:32 main.go:217: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:08:32 main.go:210: worker: sleeping 60 seconds 1
+2022/03/02 14:08:32 main.go:217: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:08:32 main.go:210: worker: sleeping 60 seconds 1
+2022/03/02 14:08:42 main.go:213: worker: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:08:42 main.go:213: worker: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:10:51 main.go:217: worker: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:10:51 main.go:210: worker: sleeping 60 seconds 2
+2022/03/02 14:10:51 main.go:217: worker: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:10:51 main.go:210: worker: sleeping 60 seconds 2
+2022/03/02 14:11:02 main.go:213: worker: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:11:02 main.go:213: worker: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:13:11 main.go:217: worker: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:13:11 main.go:210: worker: sleeping 60 seconds 3
+2022/03/02 14:13:11 main.go:217: worker: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:13:11 main.go:210: worker: sleeping 60 seconds 3
+2022/03/02 14:13:21 main.go:213: worker: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:13:21 main.go:213: worker: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:15:30 main.go:217: worker: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:15:30 main.go:210: worker: sleeping 60 seconds 4
+2022/03/02 14:15:30 main.go:217: worker: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:15:30 main.go:210: worker: sleeping 60 seconds 4
+2022/03/02 14:15:40 main.go:213: worker: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:15:40 main.go:213: worker: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:17:49 main.go:217: worker: retry error: 4 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:17:49 main.go:220: worker: error retrying and giving up: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:17:49 main.go:217: worker: retry error: 4 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:17:49 main.go:220: worker: error retrying and giving up: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:21:21 main.go:426: main: starting wshubitat:
+2022/03/02 14:21:21 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:38810
+2022/03/02 14:21:21 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:38808
+2022/03/02 14:23:17 main.go:426: main: starting wshubitat:
+2022/03/02 14:23:17 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:38818
+2022/03/02 14:23:17 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:38820
+2022/03/02 14:24:52 main.go:251: worker: error ReadJSON: read tcp 192.168.1.70:38820->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:24:52 main.go:286: worker: error ReadJSON: read tcp 192.168.1.70:38818->10.1.3.130:443: use of closed network connection wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:25:26 main.go:291: worker: retry count: 0 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:25:26 main.go:255: worker: retry count: 0 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:28:30 main.go:259: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:28:30 main.go:295: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:29:28 main.go:291: worker: retry count: 1 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:29:28 main.go:255: worker: retry count: 1 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:31:46 main.go:259: worker: retry error: 1 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:31:46 main.go:295: worker: retry error: 1 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:32:16 main.go:255: worker: retry count: 2 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:32:20 main.go:291: worker: retry count: 2 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:34:33 main.go:259: worker: retry error: 2 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:34:33 main.go:295: worker: retry error: 2 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:35:03 main.go:255: worker: retry count: 3 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:35:06 main.go:291: worker: retry count: 3 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:37:20 main.go:295: worker: retry error: 3 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:37:20 main.go:259: worker: retry error: 3 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:45:20 main.go:428: main: starting wshubitat:
+2022/03/02 14:47:31 main.go:207: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:47:31 main.go:210: worker: sleeping 60 seconds 0
+2022/03/02 14:47:31 main.go:207: worker: error dialing: dial tcp 10.1.3.130:443: connect: connection timed out wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:47:31 main.go:210: worker: sleeping 60 seconds 0
+2022/03/02 14:47:41 main.go:213: worker: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:47:41 main.go:213: worker: retry iteration: 0 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:49:50 main.go:217: worker: retry error: 0 wss://madenhub01-office.things.denn.com/eventsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:49:50 main.go:210: worker: sleeping 60 seconds 1
+2022/03/02 14:49:50 main.go:217: worker: retry error: 0 wss://madenhub01-office.things.denn.com/logsocket dial tcp 10.1.3.130:443: connect: connection timed out
+2022/03/02 14:49:50 main.go:210: worker: sleeping 60 seconds 1
+2022/03/02 14:50:00 main.go:213: worker: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:50:00 main.go:213: worker: retry iteration: 1 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:50:01 main.go:230: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/03/02 14:50:01 main.go:230: retry: successfully reconnected after: 1 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/03/02 14:50:02 main.go:210: worker: sleeping 60 seconds 2
+2022/03/02 14:50:02 main.go:210: worker: sleeping 60 seconds 2
+2022/03/02 14:50:12 main.go:213: worker: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:50:12 main.go:213: worker: retry iteration: 2 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:50:12 main.go:230: retry: successfully reconnected after: 2 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/03/02 14:50:12 main.go:230: retry: successfully reconnected after: 2 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/03/02 14:50:13 main.go:210: worker: sleeping 60 seconds 3
+2022/03/02 14:50:13 main.go:210: worker: sleeping 60 seconds 3
+2022/03/02 14:50:23 main.go:213: worker: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:50:23 main.go:213: worker: retry iteration: 3 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:50:23 main.go:230: retry: successfully reconnected after: 3 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/03/02 14:50:23 main.go:230: retry: successfully reconnected after: 3 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/03/02 14:50:24 main.go:210: worker: sleeping 60 seconds 4
+2022/03/02 14:50:24 main.go:210: worker: sleeping 60 seconds 4
+2022/03/02 14:50:34 main.go:213: worker: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/eventsocket
+2022/03/02 14:50:34 main.go:213: worker: retry iteration: 4 of 5 wss://madenhub01-office.things.denn.com/logsocket
+2022/03/02 14:50:34 main.go:230: retry: successfully reconnected after: 4 wss://madenhub01-office.things.denn.com/eventsocket <nil>
+2022/03/02 14:50:34 main.go:230: retry: successfully reconnected after: 4 wss://madenhub01-office.things.denn.com/logsocket <nil>
+2022/03/02 14:50:35 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:41378
+2022/03/02 14:50:35 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:41376
+2022/03/04 11:17:41 main.go:420: main: starting wshubitat:
+2022/03/04 11:17:41 main.go:243: worker: Connected to 0 wss://madenhub01-office.things.denn.com/eventsocket 10.1.3.130:443 192.168.1.70:54892
+2022/03/04 11:17:41 main.go:243: worker: Connected to 1 wss://madenhub01-office.things.denn.com/logsocket 10.1.3.130:443 192.168.1.70:54894
